@@ -1,4 +1,4 @@
-{:deps {:aliases [:shadow-cljs :frontend :common :kari]}
+{:deps {:aliases [:shadow-cljs :frontend :common]}
  :builds {:app {:target :browser
                 :output-dir "dev-resources/public/js"
                 :asset-path "/js"

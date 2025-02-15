@@ -13,3 +13,20 @@ See: [Configuring VSCode/Calva for Clojure programming - Part 3](https://www.kar
 ## The Port
 
 Once you have both frontend and backend REPLs running, and you have done the Integrant reset (see in file `user.clj`), you can see the frontend in browser at `http://localhost:6161`. The backend is also running at the same port, see examples in the `scripts` directory.
+
+## Start Backend REPL and Frontend Build
+
+**Terminal 1: Backend:**
+
+```bash
+just backend-calva
+```
+
+Now you can connect VSCode / Calva to REPL using `clojure-backend`.
+
+**Terminal 2: Frontend:**
+
+```bash
+just frontend
+```
+
