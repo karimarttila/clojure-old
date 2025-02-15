@@ -1,0 +1,78 @@
+# Virtualenv
+venv/
+
+# Emacs backups
+*~
+
+# Generated documentation
+doc-gen/
+
+# Python class files
+*.pyc
+
+# IntelliJ IDEA / PyCharm
+.idea/
+*.iml
+
+# Log files
+*.log
+
+# target directory
+target/
+
+# tmp directories everywhere
+tmp/
+
+# Personal information
+personal-info/
+personal/
+
+# Cache directory
+.cpcache/
+
+# Node modules
+node_modules/
+
+# Shadow cljs
+.shadow-cljs/
+
+# Leiningen
+# Always ignore .lein-env in Clojure projects since there could be secrets related to environments.
+.lein-env
+.lein-failures
+.lein-repl-history
+.nrepl-port
+
+# Javascript generated stuff
+clj-ring-cljs-reagent-demo/simple-frontend/public/js/
+
+# Python virtual environments
+venv3/
+
+# Azurite installation
+clj-ring-cljs-reagent-demo/simple-server/azure-table-storage/azurite/
+
+# VS Code
+.vscode/
+
+# CLJ errors.
+trace.edn
+
+# clj-kondo cache
+.cache/
+
+out/
+
+lsp/
+
+# Personal Clojure scratch files in various projects.
+clj-scratch/
+scratch/
+
+personal/
+
+.calva/
+
+logs/
+
+.clj-kondo/
