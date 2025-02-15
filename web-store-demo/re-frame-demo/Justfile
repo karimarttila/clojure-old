@@ -35,6 +35,9 @@
 @backend-kari:
     clj -M:dev:test:common:backend:postgres:kari -m nrepl.cmdline -i -C
 
+@backend-calva:
+    clj -M:calva:dev:test:common:backend:postgres:kari -i -C
+
 # Start backend repl with my toolbox and with debug-repl capability.
 @backend-debug-kari:
     clj -M:dev:test:common:backend:kari -m nrepl.cmdline --middleware com.gfredericks.debug-repl/wrap-debug-repl -i -C
